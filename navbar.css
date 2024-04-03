@@ -1,0 +1,85 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    background-image: url("https://wallpapercave.com/wp/wp6192905.jpg");
+    background-position: 100%;
+
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(32, 32, 32, 0.61);
+    border-radius: 20px;
+    text-align: start;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.card-body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 13px;
+}
+.tittle{
+    display: inline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+
+.card-form .label{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    display: block;
+    align-items: start;
+}
+.card-form input{
+    border-radius: 7px;
+    border-style: none;
+    height: 18px;
+    align-items: center;
+}
+.Sesion-button{
+    margin-top: 10px;
+}
+.button{
+    background-color: rgba(255, 51, 0, 0.925);
+    color: white;
+    width: 100px;
+    height: 120px;
+    border-radius: 2px;
+}
+.links{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+   color: rgb(205, 205, 205);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: none;
+    font-size: small;
+}
+.sesion-links{
+    color: rgb(205, 205, 205);
+}
+.sesion-links:hover{
+    color: white;
+    animation-duration: 2s;
+}
